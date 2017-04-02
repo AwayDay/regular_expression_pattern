@@ -8,9 +8,9 @@ import com.awayday.rep.type.PreparedMetaCharacter;
 public interface Pattern {
     String toString();
 
-    Pattern addPattern(Pattern pattern);
+    Pattern appendPattern(Pattern pattern);
 
-    Pattern addPattern(String patternString);
+    Pattern appendPattern(String patternString);
 
-    Pattern addPattern(PreparedMetaCharacter preparedPattern);
+    Pattern appendPattern(PreparedMetaCharacter preparedPattern);
 }
