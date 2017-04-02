@@ -12,7 +12,7 @@ public class PatternString implements Pattern {
     private StringBuilder patternBuilder;
 
     public PatternString(String patternString) {
-        patternBuilder = new StringBuilder(patternBuilder);
+        patternBuilder = new StringBuilder(patternString);
     }
 
     @Override
