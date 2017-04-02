@@ -4,7 +4,6 @@ import com.awayday.rep.PatternFactory;
 import com.awayday.rep.pattern.Pattern;
 import com.awayday.rep.type.PreparedMetaCharacter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,8 +13,8 @@ public class PatternArray implements Pattern {
 
     private List<Pattern> patternList;
 
-    public PatternArray() {
-        patternList = new ArrayList<>();
+    public PatternArray(List<Pattern> patternList) {
+        this.patternList = patternList;
     }
 
     @Override
